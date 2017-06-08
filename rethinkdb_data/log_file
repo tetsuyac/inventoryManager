@@ -1,0 +1,45 @@
+2017-06-05T08:45:08.872758000 0.271152s notice: Recursively removing directory /Users/tetsuya/_git/ab@qc/pub/sc-sample-inventory/rethinkdb_data/tmp
+2017-06-05T08:45:08.874573000 0.272969s notice: Initializing directory /Users/tetsuya/_git/ab@qc/pub/sc-sample-inventory/rethinkdb_data
+2017-06-05T08:45:08.874656000 0.273049s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/tetsuya/_git/ab@qc/pub/sc-sample-inventory/rethinkdb_data' did not already exist or is empty.)
+2017-06-05T08:45:08.874739000 0.273132s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-06-05T08:45:08.886959000 0.285353s notice: Running on Darwin 16.6.0 x86_64
+2017-06-05T08:45:08.887012000 0.285404s notice: Loading data from directory /Users/tetsuya/_git/ab@qc/pub/sc-sample-inventory/rethinkdb_data
+2017-06-05T08:45:09.026998000 0.425390s info: Automatically using cache size of 100 MB
+2017-06-05T08:45:09.027009000 0.425401s warn: Cache size does not leave much memory for server and query overhead (available memory: 910 MB).
+2017-06-05T08:45:09.027015000 0.425407s warn: Cache size is very low and may impact performance.
+2017-06-05T08:45:09.027650000 0.426043s notice: Listening for intracluster connections on port 29015
+2017-06-05T08:45:09.029752000 0.428144s notice: Listening for client driver connections on port 28015
+2017-06-05T08:45:09.029914000 0.428307s notice: Listening for administrative HTTP connections on port 8080
+2017-06-05T08:45:09.029918000 0.428310s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-06-05T08:45:09.030004000 0.428396s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-06-05T08:45:09.030009000 0.428401s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-06-05T08:45:09.030017000 0.428409s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-06-05T08:45:09.030023000 0.428415s notice: Server ready, "t9_local_f74" fa3e7394-f8bc-4eb3-810a-a9af05ebd6bc
+2017-06-05T08:45:13.067718000 4.466124s notice: Server got SIGINT from pid 316, uid 501; shutting down...
+2017-06-05T08:45:13.067859000 4.466264s notice: Shutting down client connections...
+2017-06-05T08:45:13.067965000 4.466370s notice: All client connections closed.
+2017-06-05T08:45:13.067972000 4.466378s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-06-05T08:45:13.068311000 4.466717s notice: Storage engine shut down.
+2017-06-05T08:46:24.549996000 0.052492s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-06-05T08:46:24.562275000 0.064769s notice: Running on Darwin 16.6.0 x86_64
+2017-06-05T08:46:24.562312000 0.064804s notice: Loading data from directory /Users/tetsuya/_git/ab@qc/pub/sc-sample-inventory/rethinkdb_data
+2017-06-05T08:46:24.664934000 0.167427s info: Automatically using cache size of 100 MB
+2017-06-05T08:46:24.664942000 0.167435s warn: Cache size does not leave much memory for server and query overhead (available memory: 689 MB).
+2017-06-05T08:46:24.664948000 0.167441s warn: Cache size is very low and may impact performance.
+2017-06-05T08:46:24.666701000 0.169194s notice: Listening for intracluster connections on port 29015
+2017-06-05T08:46:24.671853000 0.174346s notice: Listening for client driver connections on port 28015
+2017-06-05T08:46:24.672057000 0.174551s notice: Listening for administrative HTTP connections on port 8080
+2017-06-05T08:46:24.672061000 0.174553s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-06-05T08:46:24.672066000 0.174558s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-06-05T08:46:24.672067000 0.174560s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-06-05T08:46:24.672072000 0.174564s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-06-05T08:46:24.672076000 0.174569s notice: Server ready, "t9_local_f74" fa3e7394-f8bc-4eb3-810a-a9af05ebd6bc
+2017-06-05T08:46:56.891531000 32.394124s info: Table 78a77b85-08eb-471d-9b53-74913b41d3e5: Starting a new Raft election for term 1.
+2017-06-05T08:46:56.892168000 32.394760s info: Table 78a77b85-08eb-471d-9b53-74913b41d3e5: Added replica on this server.
+2017-06-05T08:46:56.903826000 32.406418s info: Table 56f9a42d-6a23-4c60-a761-cb845b713cd9: Starting a new Raft election for term 1.
+2017-06-05T08:46:56.904079000 32.406671s info: Table 56f9a42d-6a23-4c60-a761-cb845b713cd9: Added replica on this server.
+2017-06-05T08:46:56.934486000 32.437078s info: Table 8ade5cb2-1f00-4bcb-8140-7cde867bad20: Starting a new Raft election for term 1.
+2017-06-05T08:46:56.934732000 32.437324s info: Table 8ade5cb2-1f00-4bcb-8140-7cde867bad20: Added replica on this server.
+2017-06-05T08:46:56.955553000 32.458145s info: Table 78a77b85-08eb-471d-9b53-74913b41d3e5: This server is Raft leader for term 1. Latest log index is 0.
+2017-06-05T08:46:56.964197000 32.466789s info: Table 56f9a42d-6a23-4c60-a761-cb845b713cd9: This server is Raft leader for term 1. Latest log index is 0.
+2017-06-05T08:46:56.964306000 32.466898s info: Table 8ade5cb2-1f00-4bcb-8140-7cde867bad20: This server is Raft leader for term 1. Latest log index is 0.

@@ -1,0 +1,28 @@
+{
+  "name": "inventoryManager",
+  "description": "nodejs cluster realtime, a sample SocketCluster app",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Tetsuya Chiba",
+      "email": "tetsuyac@chibashoten.com"
+    }
+  ],
+  "dependencies": {
+    "connect": "3.0.1",
+    "express": "4.12.3",
+    "minimist": "1.1.0",
+    "serve-static": "1.8.0",
+    "sc-crud-rethink": "~5.0.0",
+    "socketcluster": "~5.9.0",
+    "socketcluster-client": "~5.3.0"
+  },
+  "keywords": [
+    "websocket",
+    "server",
+    "realtime",
+    "cluster",
+    "scalable"
+  ],
+  "readmeFilename": "README.md"
+}

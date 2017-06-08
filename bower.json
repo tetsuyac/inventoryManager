@@ -1,0 +1,36 @@
+{
+  "name": "inventoryManager",
+  "version": "1.0.0",
+  "homepage": "https://tetsuyac.github.io/inventoryManager",
+  "authors": [
+    "Tetsuya Chiba <tetsuyac@chibashoten.com>"
+  ],
+  "description": "nodejs cluster realtime, a sample SocketCluster app",
+  "keywords": [
+    "realtime",
+    "socketcluster",
+    "sample",
+    "inventory",
+    "websockets"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "neon-animation": "PolymerElements/neon-animation#1.0.3",
+    "page": "visionmedia/page.js#1.6.3",
+    "polymer": "Polymer/polymer#1.6.0",
+    "sc-collection": "3.x.x",
+    "sc-field": "3.x.x"
+  },
+  "resolutions": {
+    "webcomponentsjs": "0.7.15",
+    "polymer": "1.6.0",
+    "socketcluster-client": "5.3.0"
+  }
+}
